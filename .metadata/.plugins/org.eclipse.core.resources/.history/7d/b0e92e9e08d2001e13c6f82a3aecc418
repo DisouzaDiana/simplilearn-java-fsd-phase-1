@@ -1,0 +1,41 @@
+package com.simplilearn.typecasting;
+
+import java.util.Scanner;
+
+public class ExplicitTypeCasting {
+
+	public static void main(String[] args) {
+		System.out.println("Explicit Typecasting");
+		
+		
+		//Double -> float -> long -> int -> short -> byte
+		System.out.println("Enter Number");
+		Scanner Doubleinput  = new Scanner(System.in);
+		
+		Double DoubleValue = Doubleinput.nextDouble();
+		
+		System.out.println("Double value :"+DoubleValue);
+		
+		float floatVal = DoubleValue;
+		
+		long longVal = byteValue;
+		
+		short shortValue = byteValue;
+		
+		int intVal = byteValue;
+		
+		
+		
+		
+		
+		double doubleVal = byteValue;
+		
+		System.out.println("Short Value  :"+shortValue);
+		System.out.println("Integer Value  :"+intVal);
+		System.out.println("Long Value  :"+longVal);
+		System.out.println("Float Value  :"+floatVal);
+		System.out.println("Double value :"+doubleVal);
+		
+	}
+
+}
